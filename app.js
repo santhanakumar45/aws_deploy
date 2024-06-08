@@ -16,6 +16,7 @@ app.use(express.json())
 
 app.get("/",(req,res)=>{
   console.log("Welcome")
+  res.send("server is running")
 })
 // });
 
